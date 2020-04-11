@@ -1,0 +1,34 @@
+:root{
+  --bg_body:#3bd1ff;
+  --text_color:#fff;
+  --h_bg:#00ff3c;
+}
+
+body{
+  background-color: var(--bg_body);
+}
+
+p{
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3{
+  background-color:var(--h_bg);
+  color:red;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  background-color: #fff;
+  height: 30vh;
+  width: 10vw;
+}
+li{
+  height: 10vh;
+  width: 10vw;
+}
+li a{
+  height: 5vh;
+  width: 5vw;
+}
